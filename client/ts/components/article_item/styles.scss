@@ -1,0 +1,26 @@
+.paragraph {
+  padding: 10px 20px;
+  background: #fff;
+  margin-bottom: 20px;
+  border: 1.5px solid #F5F5F5;
+  
+  .title {
+    font-weight: 600;
+    font-size: 13px;
+    color: cadetblue;
+    text-transform: uppercase;
+  }
+  
+  .buttons {
+    text-align: right;
+    
+    .btn {
+      margin-left: 10px;
+    }
+  }
+  
+  .error-msg {
+    padding: 10px 5px;
+    color: red;
+  }
+}

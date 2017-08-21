@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "outDir": "./lib",
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "noUnusedLocals": true,
+    "noEmitOnError": true,
+    "module": "commonjs",
+    "target": "es5",
+    "jsx": "react",
+    "removeComments": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "allowJs": false,
+    "lib": [
+      "dom",
+      "es2015",
+      "es5",
+      "es6",
+      "es7"
+    ],
+    "exclude": [
+      "node_modules",
+      "**/*.spec.ts"
+    ]
+  },
+  "awesomeTypescriptLoaderOptions": {
+    "transpileOnly": false
+  }
+}
