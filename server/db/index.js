@@ -21,7 +21,7 @@ const db = mongoose.connection;
 
 /**
  * Exporting models
- * @type {{db: *, user: *, toObjectId: *}}
+ * @type {{db: *, user: *}}
  */
 module.exports = {
   db,

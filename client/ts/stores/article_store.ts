@@ -67,10 +67,6 @@ class ApplicationStore extends Store {
    * @memberof ApplicationStore
    */
   getListToUpdateFromServer = (article: IArticle[]) => {
-    // serverAirports.forEach(serverAirport => {
-    //   const airport = CompanyAirport.fromServerResponse(serverAirport);
-    //   this.airports.set(airport.id , airport);
-    // });
     this.article = article;
     this.currentPage = 'article';
     this.emitChange();

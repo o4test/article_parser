@@ -1,15 +1,6 @@
 import Dispatcher from '../dispatcher';
 import Constants from '../constants';
 import FetchService from './fetch_service';
-// console.log(FetchService);
-// debugger;
-// import {
-  // getNews,
-  // getUnconfirmedList,
-  // updateOne,
-  // approveOne,
-  // removeOve,
-// } from "./fetch_service"
 
 /**
  * Simple error handler

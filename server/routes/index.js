@@ -42,7 +42,7 @@ router.get('/fb/results', (req, res) => res.sendFile(`${ROOT}/client/index.html`
  * If route didn't use, send 404
  */
 router.use((request, response) => {
-	response.sendStatus(404);
+  response.sendStatus(404);
 });
 
 

@@ -18,7 +18,5 @@ app.use(routes);
  * Start server
  */
 app.listen(config.port, () => {
-	console.log('[OK] Api server listening on port ' + config.port);
+  console.log('[OK] Api server listening on port ' + config.port);
 });
-
-
