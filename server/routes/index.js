@@ -1,8 +1,8 @@
+const path 					= require('path');
 const express       = require('express');
 const bodyParser    = require('body-parser');
 const utils    	 		= require('../utils/functions');
 const article 			= require('../api');
-const path 					= require('path');
 const ROOT				 	= path.resolve(__dirname + "/../../");
 
 let router = express.Router();
@@ -31,7 +31,7 @@ router.delete('/api/delete/:id', article.remove);
 
 
 /**
- * Send html
+ * Send html and static
  */
 router.use('/public', express.static(path.join(ROOT, 'public')));
 router.get('/fb', (req, res) => res.sendFile(`${ROOT}/client/index.html`));
